@@ -1,0 +1,376 @@
+fileFormatVersion: 2
+guid: a5c8576cbfc52604ea2870a99e3beb19
+timeCreated: 1574646640
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: ant housing 02
+    100002: ant housing 1
+    100004: camera 1
+    100006: camera 2
+    100008: camera 3
+    100010: camera ring
+    100012: camera ring2
+    100014: camera shield
+    100016: commcone
+    100018: dish strut
+    100020: electronics02
+    100022: electronics03
+    100024: electronics1
+    100026: eng cooling ring
+    100028: fuel tank 1
+    100030: fuel tank 2
+    100032: fuel tank 3
+    100034: gas tank 1
+    100036: high gain antinni
+    100038: high gain antinni01
+    100040: high gain antinni02
+    100042: inner strut
+    100044: ion engine 1
+    100046: ion engine 2
+    100048: ion engine 3
+    100050: low gain antenni
+    100052: low gain antenni01
+    100054: low gain antenni02
+    100056: main dish
+    100058: main engine
+    100060: motorback
+    100062: motorback01
+    100064: motorback02
+    100066: motorback03
+    100068: panel holder 1
+    100070: panel holder 2
+    100072: panel holder 3
+    100074: panel holder 4
+    100076: panel rotator 1
+    100078: panel rotator 2
+    100080: panel rotator 3
+    100082: panel rotator 4
+    100084: pressure tank
+    100086: ring1
+    100088: ring2
+    100090: rod 1
+    100092: rod 2
+    100094: rod 3
+    100096: rod 4
+    100098: //RootNode
+    100100: sensor torus
+    100102: solar panel 2
+    100104: solar panel 3
+    100106: solar panel 4
+    100108: solar panel ring1
+    100110: solar panel ring2
+    100112: solar panel1
+    100114: tank strut
+    400000: ant housing 02
+    400002: ant housing 1
+    400004: camera 1
+    400006: camera 2
+    400008: camera 3
+    400010: camera ring
+    400012: camera ring2
+    400014: camera shield
+    400016: commcone
+    400018: dish strut
+    400020: electronics02
+    400022: electronics03
+    400024: electronics1
+    400026: eng cooling ring
+    400028: fuel tank 1
+    400030: fuel tank 2
+    400032: fuel tank 3
+    400034: gas tank 1
+    400036: high gain antinni
+    400038: high gain antinni01
+    400040: high gain antinni02
+    400042: inner strut
+    400044: ion engine 1
+    400046: ion engine 2
+    400048: ion engine 3
+    400050: low gain antenni
+    400052: low gain antenni01
+    400054: low gain antenni02
+    400056: main dish
+    400058: main engine
+    400060: motorback
+    400062: motorback01
+    400064: motorback02
+    400066: motorback03
+    400068: panel holder 1
+    400070: panel holder 2
+    400072: panel holder 3
+    400074: panel holder 4
+    400076: panel rotator 1
+    400078: panel rotator 2
+    400080: panel rotator 3
+    400082: panel rotator 4
+    400084: pressure tank
+    400086: ring1
+    400088: ring2
+    400090: rod 1
+    400092: rod 2
+    400094: rod 3
+    400096: rod 4
+    400098: //RootNode
+    400100: sensor torus
+    400102: solar panel 2
+    400104: solar panel 3
+    400106: solar panel 4
+    400108: solar panel ring1
+    400110: solar panel ring2
+    400112: solar panel1
+    400114: tank strut
+    2100000: No Name
+    2300000: ant housing 02
+    2300002: ant housing 1
+    2300004: camera 1
+    2300006: camera 2
+    2300008: camera 3
+    2300010: camera ring
+    2300012: camera ring2
+    2300014: camera shield
+    2300016: commcone
+    2300018: dish strut
+    2300020: electronics02
+    2300022: electronics03
+    2300024: electronics1
+    2300026: eng cooling ring
+    2300028: fuel tank 1
+    2300030: fuel tank 2
+    2300032: fuel tank 3
+    2300034: gas tank 1
+    2300036: high gain antinni
+    2300038: high gain antinni01
+    2300040: high gain antinni02
+    2300042: inner strut
+    2300044: ion engine 1
+    2300046: ion engine 2
+    2300048: ion engine 3
+    2300050: low gain antenni
+    2300052: low gain antenni01
+    2300054: low gain antenni02
+    2300056: main dish
+    2300058: main engine
+    2300060: motorback
+    2300062: motorback01
+    2300064: motorback02
+    2300066: motorback03
+    2300068: panel holder 1
+    2300070: panel holder 2
+    2300072: panel holder 3
+    2300074: panel holder 4
+    2300076: panel rotator 1
+    2300078: panel rotator 2
+    2300080: panel rotator 3
+    2300082: panel rotator 4
+    2300084: pressure tank
+    2300086: ring1
+    2300088: ring2
+    2300090: rod 1
+    2300092: rod 2
+    2300094: rod 3
+    2300096: rod 4
+    2300098: sensor torus
+    2300100: solar panel 2
+    2300102: solar panel 3
+    2300104: solar panel 4
+    2300106: solar panel ring1
+    2300108: solar panel ring2
+    2300110: solar panel1
+    2300112: tank strut
+    3300000: ant housing 02
+    3300002: ant housing 1
+    3300004: camera 1
+    3300006: camera 2
+    3300008: camera 3
+    3300010: camera ring
+    3300012: camera ring2
+    3300014: camera shield
+    3300016: commcone
+    3300018: dish strut
+    3300020: electronics02
+    3300022: electronics03
+    3300024: electronics1
+    3300026: eng cooling ring
+    3300028: fuel tank 1
+    3300030: fuel tank 2
+    3300032: fuel tank 3
+    3300034: gas tank 1
+    3300036: high gain antinni
+    3300038: high gain antinni01
+    3300040: high gain antinni02
+    3300042: inner strut
+    3300044: ion engine 1
+    3300046: ion engine 2
+    3300048: ion engine 3
+    3300050: low gain antenni
+    3300052: low gain antenni01
+    3300054: low gain antenni02
+    3300056: main dish
+    3300058: main engine
+    3300060: motorback
+    3300062: motorback01
+    3300064: motorback02
+    3300066: motorback03
+    3300068: panel holder 1
+    3300070: panel holder 2
+    3300072: panel holder 3
+    3300074: panel holder 4
+    3300076: panel rotator 1
+    3300078: panel rotator 2
+    3300080: panel rotator 3
+    3300082: panel rotator 4
+    3300084: pressure tank
+    3300086: ring1
+    3300088: ring2
+    3300090: rod 1
+    3300092: rod 2
+    3300094: rod 3
+    3300096: rod 4
+    3300098: sensor torus
+    3300100: solar panel 2
+    3300102: solar panel 3
+    3300104: solar panel 4
+    3300106: solar panel ring1
+    3300108: solar panel ring2
+    3300110: solar panel1
+    3300112: tank strut
+    4300000: fuel tank 1
+    4300002: eng cooling ring
+    4300004: camera ring
+    4300006: solar panel1
+    4300008: solar panel ring2
+    4300010: inner strut
+    4300012: ion engine 2
+    4300014: tank strut
+    4300016: camera 1
+    4300018: main engine
+    4300020: camera ring2
+    4300022: ring1
+    4300024: panel rotator 2
+    4300026: main dish
+    4300028: solar panel 3
+    4300030: solar panel ring1
+    4300032: solar panel 2
+    4300034: solar panel 4
+    4300036: dish strut
+    4300038: ring2
+    4300040: panel rotator 3
+    4300042: panel rotator 1
+    4300044: panel rotator 4
+    4300046: camera 3
+    4300048: camera shield
+    4300050: camera 2
+    4300052: ion engine 3
+    4300054: ion engine 1
+    4300056: pressure tank
+    4300058: gas tank 1
+    4300060: fuel tank 3
+    4300062: fuel tank 2
+    4300064: sensor torus
+    4300066: commcone
+    4300068: low gain antenni
+    4300070: high gain antinni
+    4300072: low gain antenni01
+    4300074: low gain antenni02
+    4300076: high gain antinni01
+    4300078: high gain antinni02
+    4300080: rod 1
+    4300082: rod 3
+    4300084: rod 4
+    4300086: rod 2
+    4300088: panel holder 1
+    4300090: panel holder 3
+    4300092: panel holder 2
+    4300094: panel holder 4
+    4300096: ant housing 1
+    4300098: ant housing 02
+    4300100: motorback
+    4300102: motorback01
+    4300104: motorback02
+    4300106: motorback03
+    4300108: electronics1
+    4300110: electronics02
+    4300112: electronics03
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

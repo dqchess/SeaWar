@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8002E4DD-80B1-F3C7-1315-02E0DBFF17F5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.6.3f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_3;UNITY_5_6;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_3;UNITY_5_6;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/programfile/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/programfile/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>D:/programfile/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>D:/programfile/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>D:/programfile/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>D:/programfile/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>D:/programfile/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>D:/programfile/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/programfile/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>D:/programfile/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>D:/programfile/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\AQUAS\Scripts\AQUAS_BubbleBehaviour.cs" />
+    <Compile Include="Assets\AQUAS\Scripts\AQUAS_BubbleMorph.cs" />
+    <Compile Include="Assets\AQUAS\Scripts\AQUAS_Buoyancy.cs" />
+    <Compile Include="Assets\AQUAS\Scripts\AQUAS_Camera.cs" />
+    <Compile Include="Assets\AQUAS\Scripts\AQUAS_Caustics.cs" />
+    <Compile Include="Assets\AQUAS\Scripts\AQUAS_Gaia.cs" />
+    <Compile Include="Assets\AQUAS\Scripts\AQUAS_LensEffects.cs" />
+    <Compile Include="Assets\AQUAS\Scripts\AQUAS_Look.cs" />
+    <Compile Include="Assets\AQUAS\Scripts\AQUAS_Parameters.cs" />
+    <Compile Include="Assets\AQUAS\Scripts\AQUAS_Reflection.cs" />
+    <Compile Include="Assets\AQUAS\Scripts\AQUAS_RenderQueueEditor.cs" />
+    <Compile Include="Assets\AQUAS\Scripts\AQUAS_Screenshotter.cs" />
+    <Compile Include="Assets\AQUAS\Scripts\AQUAS_SmallBubbleBehaviour.cs" />
+    <Compile Include="Assets\AQUAS\Scripts\AQUAS_Walk.cs" />
+    <Compile Include="Assets\CTS\Scripts\CTSConstants.cs" />
+    <Compile Include="Assets\CTS\Scripts\CTSDemoController.cs" />
+    <Compile Include="Assets\CTS\Scripts\CTSFly.cs" />
+    <Compile Include="Assets\CTS\Scripts\CTSFps.cs" />
+    <Compile Include="Assets\CTS\Scripts\CTSGaiaIntegration.cs" />
+    <Compile Include="Assets\CTS\Scripts\CTSHeightMap.cs" />
+    <Compile Include="Assets\CTS\Scripts\CTSLook.cs" />
+    <Compile Include="Assets\CTS\Scripts\CTSMaskPainter.cs" />
+    <Compile Include="Assets\CTS\Scripts\CTSProfile.cs" />
+    <Compile Include="Assets\CTS\Scripts\CTSRuntimeTerrainHelper.cs" />
+    <Compile Include="Assets\CTS\Scripts\CTSSingleton.cs" />
+    <Compile Include="Assets\CTS\Scripts\CTSTerrainManager.cs" />
+    <Compile Include="Assets\CTS\Scripts\CTSTerrainStitcher.cs" />
+    <Compile Include="Assets\CTS\Scripts\CTSTerrainTextureDetails.cs" />
+    <Compile Include="Assets\CTS\Scripts\CTSWalk.cs" />
+    <Compile Include="Assets\CTS\Scripts\CTSWeatherController.cs" />
+    <Compile Include="Assets\CTS\Scripts\CTSWeatherManager.cs" />
+    <Compile Include="Assets\CTS\Scripts\CTSWorldAPIIntegration.cs" />
+    <Compile Include="Assets\CTS\Scripts\CompleteTerrainShader.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Samples\Scripts\DemoUI.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Samples\Scripts\EventTest.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Samples\Scripts\FPSController.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Samples\Scripts\NetworkFPSController.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Samples\Scripts\SampleHUDFPS.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\AQUAS Integration\EnviroAquasIntegration.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\CTS Integration\EnviroCTSIntegration.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\Effects\EnviroEffects.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\Effects\EnviroFog.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\Effects\EnviroLightShafts.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\EnviroEvents.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\EnviroProfile.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\EnviroSky.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\EnviroSkyRendering.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\EnviroVegetationInstance.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\EnviroVolumeLight.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\EnviroWeatherPrefab.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\EnviroWeatherPreset.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\EnviroZone.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\Gaia Integration\EnviroWithGAIA.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\MegaSplat Integration\EnviroMegaSplatIntegration.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\NetworkIntegration\EnviroUNetPlayer.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\NetworkIntegration\EnviroUNetServer.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\Utility\EnviroAdditionalCamera.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\Utility\EnviroAudioMixerSupport.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\Utility\EnviroAudioSource.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\Utility\EnviroDayNightSwitch.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\Utility\EnviroInterior.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\Utility\EnviroLightning.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\Utility\EnviroMeshSeasons.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\Utility\EnviroReflections.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\Utility\EnviroSeasonObjectSwitcher.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\Utility\EnviroSetSystemTime.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\Utility\EnviroStartInSeason.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\Utility\EnviroTerrainSeasons.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\Utility\EnviroTrigger.cs" />
+    <Compile Include="Assets\Enviro - Dynamic Enviroment\Scripts\WAPI Integration\EnviroWorldAPIIntegration.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Attributes\PreviewTextureAttribute.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\AQUASWaterSet.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\CountrySidePack.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\DesktopGroundCoverPackage.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\DesktopTreesPackage.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\DistingoGaiaExtension.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\GameTexturesCom.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\Tenkoku.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\ThirdPersonController.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\VillageExteriorsKit.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\VolumetricFog.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\uConstruct.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Extensions\CameraAndLight.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\GaiaCompatiblePackage.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\GaiaCompatiblePublisher.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\GaiaExtensionManager.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Template.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\TemplateFrame.cs" />
+    <Compile Include="Assets\Gaia\Scripts\GaiaConstants.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\Unity\AnimationCurve_DirectConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\Unity\Bounds_DirectConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\Unity\GameObject_DirectConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\Unity\Gradient_DirectConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\Unity\Keyframe_DirectConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\Unity\LayerMask_DirectConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\Unity\Rect_DirectConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\Unity\Texture2D_DirectConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsArrayConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsDateConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsDictionaryConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsEnumConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsForwardConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsGuidConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsIEnumerableConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsKeyValuePairConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsNullableConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsPrimitiveConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsReflectedConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsTypeConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsWeakReferenceConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Internal\fsCyclicReferenceManager.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Internal\fsOption.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Internal\fsPortableReflection.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Internal\fsTypeExtensions.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Internal\fsVersionManager.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Internal\fsVersionedType.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Reflection\fsMetaProperty.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Reflection\fsMetaType.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Reflection\fsReflectionUtility.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Reflection\fsTypeLookup.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsAotCompilationManager.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsBaseConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsConfig.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsContext.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsConverterRegistrar.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsData.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsDirectConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsExceptions.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsISerializationCallbacks.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsIgnoreAttribute.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsJsonParser.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsJsonPrinter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsMemberSerialization.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsObjectAttribute.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsObjectProcessor.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsPropertyAttribute.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsResult.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsSerializer.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\GaiaDefaults.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\GaiaResource.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\GaiaSettings.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\GaiaWorldManager.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceProtoDNA.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceProtoDetail.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceProtoDetailSO.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceProtoGameObject.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceProtoGameObjectSO.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceProtoStamp.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceProtoTexture.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceProtoTextureSO.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceProtoTree.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceProtoTreeSO.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceVisualiser.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ScanningSystem\Scanner.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SessionSystem\GaiaOperation.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SessionSystem\GaiaSession.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SessionSystem\GaiaSessionManager.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SpawningSystem\SpawnCriteria.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SpawningSystem\SpawnExtensions\SpawnGrassExtension.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SpawningSystem\SpawnExtensions\SpawnTextureExtension.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SpawningSystem\SpawnInfo.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SpawningSystem\SpawnRule.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SpawningSystem\SpawnRuleExtension.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SpawningSystem\Spawner.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SpawningSystem\SpawnerGroup.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SpawningSystem\TreeManager.cs" />
+    <Compile Include="Assets\Gaia\Scripts\StampingSystem\RuntimeStamper.cs" />
+    <Compile Include="Assets\Gaia\Scripts\StampingSystem\Stamper.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\FractalGenerator.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\GaiaMessages.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\GaiaSceneInfo.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\GaiaScriptOrder.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\HeightMap.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\QuadTree.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\ScaleTexture.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\SimplexNoiseGenerator.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\Singleton.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\TerrainHelper.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\TimedInstance.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\UnityHeightMap.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\Utils.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\WaterFlowMap.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\XorshiftPlus.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ValueAdds\CameraController.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ValueAdds\FrameRateManager.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ValueAdds\FreeCamera.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ValueAdds\Growth.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ValueAdds\ScreenShotter.cs" />
+    <Compile Include="Assets\Pegasus\Scripts\PegasusConstants.cs" />
+    <Compile Include="Assets\Pegasus\Scripts\PegasusDefaults.cs" />
+    <Compile Include="Assets\Pegasus\Scripts\PegasusManager.cs" />
+    <Compile Include="Assets\Pegasus\Scripts\PegasusPoi.cs" />
+    <Compile Include="Assets\Pegasus\Scripts\TriggerBase.cs" />
+    <Compile Include="Assets\Pegasus\Scripts\TriggerControlAnimation.cs" />
+    <Compile Include="Assets\Pegasus\Scripts\TriggerControlHeliosFade.cs" />
+    <Compile Include="Assets\Pegasus\Scripts\TriggerControlPegasus.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\GrainComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\BloomModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\FogModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\GrainModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\UserLutModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingContext.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+    <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\Scripts\Enemyship\Enemyship.cs" />
+    <Compile Include="Assets\Scripts\Missile\Missile.cs" />
+    <Compile Include="Assets\Scripts\Missile\MissileLaunch.cs" />
+    <Compile Include="Assets\Scripts\Missile\PhysicsUtil.cs" />
+    <Compile Include="Assets\Scripts\Missile\Test.cs" />
+    <Compile Include="Assets\Scripts\Satellite\DrawCone.cs" />
+    <Compile Include="Assets\Scripts\Satellite\DrawCurve.cs" />
+    <Compile Include="Assets\Scripts\Satellite\DrawLine.cs" />
+    <Compile Include="Assets\Scripts\Satellite\DrawLink.cs" />
+    <Compile Include="Assets\Scripts\Satellite\Sensor.cs" />
+    <Compile Include="Assets\Scripts\camera\CameraSwitch.cs" />
+    <Compile Include="Assets\Scripts\move\WaypointCircuit.cs" />
+    <Compile Include="Assets\Scripts\move\moveboat.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\AQUAS\Shaders\Caustics.shader" />
+    <None Include="Assets\AQUAS\Shaders\Water\Desktop&amp;Web\2SidedTripleTextured.shader" />
+    <None Include="Assets\Enviro - Dynamic Enviroment\Resources\Shaders\Effects\EnviroClearLightShafts.shader" />
+    <None Include="Assets\Enviro - Dynamic Enviroment\Resources\Shaders\Effects\EnviroLightShafts.shader" />
+    <None Include="Assets\Enviro - Dynamic Enviroment\Shaders\Particle\EnviroWeatherParticles.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

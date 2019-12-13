@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: 2a84cb6336db8c742a27675b8376959c
+timeCreated: 1574646628
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: GASKANTE
+    100004: GASKARMO
+    100006: GASKBLWI
+    100008: GASKEXHA
+    100010: GASKGLAS
+    100012: GASKGRID
+    100014: GASKHATC
+    100016: GASKLICR
+    100018: GASKLIGH
+    100020: GASKLOUV
+    100022: GASKMETA
+    100024: GASKMIS2
+    100026: GASKMISS
+    100028: GASKMUSH
+    100030: GASKRADA
+    100032: GASKROB
+    100034: GASKSUPL
+    100036: GASKSUPP
+    100038: GASKWHEE
+    100040: GASKWIPE
+    100042: GASKWIRE
+    100044: GASKWOOD
+    400000: //RootNode
+    400002: GASKANTE
+    400004: GASKARMO
+    400006: GASKBLWI
+    400008: GASKEXHA
+    400010: GASKGLAS
+    400012: GASKGRID
+    400014: GASKHATC
+    400016: GASKLICR
+    400018: GASKLIGH
+    400020: GASKLOUV
+    400022: GASKMETA
+    400024: GASKMIS2
+    400026: GASKMISS
+    400028: GASKMUSH
+    400030: GASKRADA
+    400032: GASKROB
+    400034: GASKSUPL
+    400036: GASKSUPP
+    400038: GASKWHEE
+    400040: GASKWIPE
+    400042: GASKWIRE
+    400044: GASKWOOD
+    2100000: GASKARSP
+    2100002: 'Material #114'
+    2100004: 'Material #119'
+    2100006: BRDMARMO2
+    2100008: 'Material #1'
+    2100010: 'Material #116'
+    2100012: 'Material #115'
+    2100014: GASKBLWI
+    2100016: 'Material #117'
+    2100018: BRDMARSP
+    2100020: GASKGLAS
+    2100022: GASKLICR
+    2100024: GASKLIGH
+    2100026: GASKMETA
+    2100028: GASKRADA
+    2100030: 'Material #113'
+    2100032: GASKWIRE
+    2100034: GASKWOOD
+    2300000: GASKANTE
+    2300002: GASKARMO
+    2300004: GASKBLWI
+    2300006: GASKEXHA
+    2300008: GASKGLAS
+    2300010: GASKGRID
+    2300012: GASKHATC
+    2300014: GASKLICR
+    2300016: GASKLIGH
+    2300018: GASKLOUV
+    2300020: GASKMETA
+    2300022: GASKMIS2
+    2300024: GASKMISS
+    2300026: GASKMUSH
+    2300028: GASKRADA
+    2300030: GASKROB
+    2300032: GASKSUPL
+    2300034: GASKSUPP
+    2300036: GASKWHEE
+    2300038: GASKWIPE
+    2300040: GASKWIRE
+    2300042: GASKWOOD
+    3300000: GASKANTE
+    3300002: GASKARMO
+    3300004: GASKBLWI
+    3300006: GASKEXHA
+    3300008: GASKGLAS
+    3300010: GASKGRID
+    3300012: GASKHATC
+    3300014: GASKLICR
+    3300016: GASKLIGH
+    3300018: GASKLOUV
+    3300020: GASKMETA
+    3300022: GASKMIS2
+    3300024: GASKMISS
+    3300026: GASKMUSH
+    3300028: GASKRADA
+    3300030: GASKROB
+    3300032: GASKSUPL
+    3300034: GASKSUPP
+    3300036: GASKWHEE
+    3300038: GASKWIPE
+    3300040: GASKWIRE
+    3300042: GASKWOOD
+    4300000: GASKSUPP
+    4300002: GASKANTE
+    4300004: GASKARMO
+    4300006: GASKBLWI
+    4300008: GASKEXHA
+    4300010: GASKGLAS
+    4300012: GASKGRID
+    4300014: GASKHATC
+    4300016: GASKLICR
+    4300018: GASKLIGH
+    4300020: GASKLOUV
+    4300022: GASKMETA
+    4300024: GASKMIS2
+    4300026: GASKMISS
+    4300028: GASKMUSH
+    4300030: GASKRADA
+    4300032: GASKROB
+    4300034: GASKSUPL
+    4300036: GASKWHEE
+    4300038: GASKWIPE
+    4300040: GASKWIRE
+    4300042: GASKWOOD
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
